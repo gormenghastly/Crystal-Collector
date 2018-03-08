@@ -1,0 +1,44 @@
+body {
+    background: url(../images/crystalMulti.jpeg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(32,2,32);
+
+}
+.card {
+    background: transparent;
+    border: none;
+}
+h1 {
+    color: rgb(82, 8, 124);
+    font-size: 48px;
+
+}
+#start {
+    background: rgb(224, 255, 255);
+
+}
+.card-img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(32,2,32);
+}
+#emerald {
+    width: 150px;
+    height: 150px;
+}
+#ruby {
+    width: 150px;
+    height: 150px;
+}
+#citrine {
+    width: 150px;
+    height: 150px;
+}
+#sapphire { 
+    width: 150px;
+    height: 150px;
+}
+.back {
+    background: rgb(224, 255, 255);
+    border: 5px solid rgb(32,2,32);
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal-Collector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/custom.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-5">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h1 class="card-title">CRYSTAL COLLECTOR</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4">
+                        <div class="card" id="start">
+                            <div class="card-body">
+                            <h3 class="card-title">START COLLECTING</h3>
+                            <p class="card-text">At the start of each game, you will be given a random number.</p>
+                            <p class="card-text">Click on one of the four crystals to add points to your score. The values are hidden until you click and change with each click.</p>
+                            <p class="card-text">You win by matching your score to the random number. If you go over the random number, you lose.<br>Happy Collecting!</p>
+                            </div>    
+                        </div>  
+            </div>
+            <div class="col-lg-1"></div>                        
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card-body text-center" id="emerald">
+                            
+                            <img class="card-img" src="assets/images/emerald.jpg" class="img-fluid rounded" alt="Responsive image">
+                                
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-6">
+                        <div class="card-body text-center" id="ruby">                         
+                            <img class="card-img" src="assets/images/ruby.jpg" class="img-fluid rounded" alt="Responsive image">
+                        </div>                         
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card-body text-center" id="citrine">                                                                           
+                            <img class="card-img" src="assets/images/citrine.jpg" class="img-fluid rounded" alt="Responsive image"> 
+                        </div>                           
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card-body text-center" id="sapphire">                         
+                            <img class="card-img" src="assets/images/sapphire300.jpg" class="img-fluid rounded" alt="Responsive image"> 
+                        </div>                         
+                    </div>
+                </div>    
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card text-center">    
+                            <div class="card-text">
+                                <h2 class="card-title">RANDOM NUMBER</h2>
+                                <h2 class="card-title" id="targetNumber">45</h2>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                <div class="col-12">
+                    <div class="card text-center">
+                        <div class="card-text">
+                            <h2 class="card-title">YOUR SCORE</h2>
+                            <h2 class="card-title" id="score"></h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card text-center">
+                            <div class="card-body">
+                            <h4 class="card-title" id="wins">WINS:</h4>
+                            <h4 class="card-title" id="losses">LOSSES:</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
