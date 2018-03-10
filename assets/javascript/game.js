@@ -15,22 +15,23 @@ $(document).ready(function() {
         $('#wins').text("WINS: " + winCount);
 
     lossCount = 0;
-        $('#losses').text("LOSSES: " + lossCount);
-
-    crystalValue1 = Math.floor(Math.random() * 12) + 1;
-    crystalValue2 = Math.floor(Math.random() * 12) + 1;
-    crystalValue3 = Math.floor(Math.random() * 12) + 1;
-    crystalValue4 = Math.floor(Math.random() * 12) + 1;
-            
+        $('#losses').text("LOSSES: " + lossCount);       
 
     function startGame() {
 
         score = 0;
         $('#score').text(score);
+
+        crystalValue1 = Math.floor(Math.random() * 12) + 1;
+        crystalValue2 = Math.floor(Math.random() * 12) + 1;
+        crystalValue3 = Math.floor(Math.random() * 12) + 1;
+        crystalValue4 = Math.floor(Math.random() * 12) + 1;
  
         targetNumber = Math.floor(Math.random() * 102) + 19;
 
         $('#targetNumber').text(targetNumber);
+
+    }
     
         $('.col-lg-6').on('click', '#emerald', function() {  
             $('#score').text(score += crystalValue1);
@@ -51,8 +52,6 @@ $(document).ready(function() {
             $('#score').text(score += crystalValue4);
             checkScore();
         });
-        
-    }
 
     function checkScore() {
 
